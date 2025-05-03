@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Navbar */
+nav {
+    background-color:#0056b3; 
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white; /* White text in navbar */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* Top Section */
+header {
+    text-align: center;
+    padding: 100px 20px 40px 20px; /* Added top padding for space */
+}
+
+/* Hero Section Heading */
+h1 {
+    font-size: 3em;
+    color: #0056b3; /* Blue for headings */
+    margin-bottom: 20px;
+}
+
+/* Hero Section Subheading */
+p {
+    font-size: 1.5em;
+    color: #0056b3; /* Blue for subheading */
+}
+
+/* About Section */
+h2, .lead {
+    color: #0056b3; 
+}
+
+/* Skills Section */
+.skill-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0056b3; /* Blue border for skills blocks */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    text-align: center;
+    margin-bottom: 20px; /* Space between skill blocks */
+}
+
+/* Skills and Projects Section Heading */
+h2 {
+    color: #0056b3; /* Blue for section headings */
+}
+
+/* Projects Section */
+.project-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0056b3; /* Blue border for projects blocks */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3; /* Darker blue */
+    color: white;
+}
+
